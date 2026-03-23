@@ -1,3 +1,131 @@
-h1 { 
-    color: red
+/* .parent {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.child { 
+    background: red;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+.main-container {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0;
+}
+.icon-box {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+.badge {
+    display: none;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width:100px;
+    border: 3px solid;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.nav-left, .nav-right   {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-box { 
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.brand-name {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-links { 
+    color: #555;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+user-greetings {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.avatar-circle {
+    width: 35px;
+    height: 35px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+button { 
+    flex: 1;
+    padding: 10px;
 }
